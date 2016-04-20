@@ -3,12 +3,13 @@
 
 // Run button configuration
   "commands": {
+    "Start server": "node main.js",
     "Deploy": "git checkout gh-pages && git merge --no-ff master && git push && git checkout master",
     "Node version": "node --version"
   },
 
 // Preview button configuration
   "preview": {
-    "Project Index (static)": "https://{{domain}}/{{index}}"
+    "Box URL": "http://{{domain}}:3000"
   }
 }
