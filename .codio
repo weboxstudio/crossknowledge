@@ -3,6 +3,7 @@
 
 // Run button configuration
   "commands": {
+    "Deploy": "git checkout gh-pages && git merge --no-ff master && git push && git checkout master",
     "Node version": "node --version"
   },
 
