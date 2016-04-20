@@ -8,11 +8,11 @@
 
 		<title>Crossknowledge</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="public/css/reveal.css">
+		<link rel="stylesheet" href="public/css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="public/lib/css/zenburn.css">
 	</head>
   
 	<body>
@@ -22,8 +22,8 @@
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		<script src="public/lib/js/head.min.js"></script>
+		<script src="public/js/reveal.js"></script>
 
 		<script>
       function getQueryStringValue (key) {  
@@ -51,10 +51,10 @@
         history: true,
 
         dependencies: [
-          { src: 'plugin/markdown/marked.js' },
-          { src: 'plugin/markdown/markdown.js' },
-          { src: 'plugin/notes/notes.js', async: true },
-          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          { src: 'public/plugin/markdown/marked.js' },
+          { src: 'public/plugin/markdown/markdown.js' },
+          { src: 'public/plugin/notes/notes.js', async: true },
+          { src: 'public/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
         ]
       });
 		</script>
