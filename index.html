@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  
+	<head>
+    <base href="/">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Crossknowledge</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+  
+	<body>
+		<div class="reveal">
+			<div id="subject" class="slides">
+				<section>[404] Subject not found =(</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+      function getQueryStringValue (key) {  
+        return unescape(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + escape(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
+      }
+      
+      function doesFileExist(urlToFile) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('HEAD', urlToFile, false);
+        xhr.send();
+
+        return xhr.status !== 404;
+      }
+      
+      var subject = getQueryStringValue('subject');
+      
+      var subjectUrl = 'subjects/' + subject + '/' + 'index.md';
+      
+      if (doesFileExist(subjectUrl)) {
+        document.getElementById('subject').innerHTML = '<section data-markdown="' + subjectUrl + '" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="iso-8859-15"></section>';
+        document.title = document.title + ' - ' + subject;
+      }
+      
+      Reveal.initialize({
+        history: true,
+
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+		</script>
+	</body>
+</html>
