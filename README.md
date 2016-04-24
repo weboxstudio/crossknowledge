@@ -3,6 +3,9 @@ A container for sharing all the WeBox Studio's internal knowledge
 
 ## List of subjects
 * Demo - http://weboxstudio.github.io/crossknowledge/?subject=demo
+* Whatsapp & telegram bots
+* Apollo
+* React
 
 ## How to add a subject
 * Create a new folder in subjects
