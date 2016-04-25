@@ -6,6 +6,7 @@ A container for sharing all the WeBox Studio's internal knowledge
 * Whatsapp & telegram bots
 * Apollo
 * React
+* Filestack
 
 ## How to add a subject
 * Create a new folder in subjects
