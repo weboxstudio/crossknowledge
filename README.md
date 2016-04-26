@@ -3,8 +3,11 @@ A container for sharing all the WeBox Studio's internal knowledge
 
 ## List of subjects
 * Demo - http://weboxstudio.github.io/crossknowledge/?subject=demo
+
+## List of proposals
 * Whatsapp & telegram bots
 * Apollo
+* Testing with Meteor
 * React
 * Filestack
 
