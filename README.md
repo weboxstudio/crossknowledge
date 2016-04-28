@@ -5,6 +5,7 @@ A container for sharing all the WeBox Studio's internal knowledge
 * Demo - http://weboxstudio.github.io/crossknowledge/?subject=demo
 
 ## List of proposals
+* Messenger & telegram bots [Francesco]
 * Apollo
 * Messenger & telegram bots
 * React
