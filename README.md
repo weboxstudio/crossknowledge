@@ -5,11 +5,11 @@ A container for sharing all the WeBox Studio's internal knowledge
 * Demo - http://weboxstudio.github.io/crossknowledge/?subject=demo
 
 ## List of proposals
-* Testing with Meteor (Gianluca)
+* Testing with Meteor [Gianluca]
 * Messenger & telegram bots [Francesco]
 * Apollo
 * React
-* Wit.ai (David)
+* Wit.ai [David]
 
 ## How to add a subject
 * Clone this repo
