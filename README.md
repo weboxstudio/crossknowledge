@@ -7,9 +7,11 @@ A container for sharing all the WeBox Studio's internal knowledge
 ## List of proposals
 * Apollo
 * Continuous integration
-* Messenger bots [Francesco]
+* Messenger bots
 * React
-* Testing with Meteor [Gianluca]
+* Testing with Meteor
+  * End-to-End testing [Francesco]
+  * Unit testing [Gianluca]
 * Wit.ai [David]
 
 ## How to add a subject
