@@ -10,8 +10,8 @@ A container for sharing all the WeBox Studio's internal knowledge
 * Messenger bots
 * React
 * Testing with Meteor
-  * End-to-End testing [Francesco]
-  * Unit testing [Gianluca]
+* End-to-End testing [Francesco]
+* Unit testing [Gianluca]
 * Wit.ai [David]
 
 ## How to add a subject
