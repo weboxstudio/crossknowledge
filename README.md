@@ -10,7 +10,7 @@ A container for sharing all the WeBox Studio's internal knowledge
 * Filestack
 * React
 * Testing with Meteor
-* Wit.ai
+* Wit.ai (David)
 
 ## How to add a subject
 * Clone this repo
