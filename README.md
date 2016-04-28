@@ -6,7 +6,7 @@ A container for sharing all the WeBox Studio's internal knowledge
 
 ## List of proposals
 * Testing with Meteor [Gianluca]
-* Messenger & telegram bots [Francesco]
+* Messenger  bots [Francesco]
 * Apollo
 * React
 * Wit.ai [David]
