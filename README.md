@@ -7,9 +7,8 @@ A container for sharing all the WeBox Studio's internal knowledge
 ## List of proposals
 * Messenger & telegram bots [Francesco]
 * Apollo
-* Messenger & telegram bots
 * React
-* Testing with Meteor
+* Testing with Meteor (Gianluca)
 * Wit.ai (David)
 
 ## How to add a subject
