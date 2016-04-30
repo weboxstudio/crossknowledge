@@ -15,6 +15,7 @@ A container for sharing all the WeBox Studio's internal knowledge
 * Wit.ai [David]
 
 ## How to add a subject
+* Create a new codio project from our Meteor stack
 * Clone this repo
 * run `npm install`
 * Create a new folder in subjects
