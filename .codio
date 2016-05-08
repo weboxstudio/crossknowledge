@@ -10,6 +10,6 @@
 
 // Preview button configuration
   "preview": {
-    "Box URL": "http://{{domain}}:3000"
+    "Box URL": "http://{{domain}}:3000/?subject=testing-with-meteor"
   }
 }
